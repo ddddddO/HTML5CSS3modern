@@ -246,6 +246,22 @@ a:link, a:visited, a:hover, a:active {
   left: 0;
   width: 100%;
 }
+
+.ranking {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+.ranking .ranking-item {
+  margin-top: 15px;
+}
+.ranking .ranking-item a {
+  display: block;
+  font-size: 0;
+  transition: opacity 0.15s;
+}
+.ranking .ranking-item a:hover {
+  opacity: 0.8;
+}
 /* 表示確認用 */
 /*
 .header, .main, .sidemenu, .footer {
